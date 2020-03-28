@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <!-- 标题行 -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/tableLayout"
+            android:gravity="center"
+            android:textSize="25dp"
+            />
+    </TableRow>
+
+    <!-- 第一行 -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Open..."
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Ctrl-O"
+            android:padding="3dp"
+            />
+    </TableRow>
+
+    <!-- 第二行 -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Save..."
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Ctrl-S"
+            android:padding="3dp"
+            />
+    </TableRow>
+
+    <!-- 第三行 -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Save As..."
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:padding="3dp"
+            />
+    </TableRow>
+
+    <!-- 设置分界线 -->
+    <TextView
+        android:layout_height="1dp"
+        android:background="@color/colorDark"
+        />
+
+    <!-- 第四行 -->
+    <TableRow>
+        <TextView
+            android:text="×"
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Import..."
+            android:padding="3dp"
+            />
+    </TableRow>
+
+    <!-- 第五行 -->
+    <TableRow>
+        <TextView
+            android:text="×"
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Export..."
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Ctrl-E"
+            android:padding="3dp"
+            />
+    </TableRow>
+
+    <!-- 设置分界线 -->
+    <TextView
+        android:layout_height="1dp"
+        android:background="@color/colorDark"
+        />
+
+    <!-- 第六行 -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Quit"
+            android:padding="2dp"
+            />
+    </TableRow>
+
+</TableLayout>
