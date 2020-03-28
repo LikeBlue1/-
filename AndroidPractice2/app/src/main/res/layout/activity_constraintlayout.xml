@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    >
+
+
+
+    <TextView
+        android:id="@+id/Indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        android:layout_marginStart="35dp"
+        android:background="@color/colorIndigo"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="INDIGO"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBaseline_toBaselineOf="@+id/blue"
+        app:layout_constraintStart_toEndOf="@+id/blue" />
+
+    <TextView
+        android:id="@+id/Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="19dp"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="GREEN"
+        android:textColor="@color/colorDark"
+        app:layout_constraintBaseline_toBaselineOf="@+id/blue"
+        app:layout_constraintEnd_toStartOf="@+id/Yellow" />
+
+    <TextView
+        android:id="@+id/Yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:background="@color/colorYellow"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="YELLOW"
+        android:textColor="@color/colorDark"
+        app:layout_constraintEnd_toStartOf="@+id/orange"
+        app:layout_constraintStart_toEndOf="@+id/Red"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="17dp"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="RED"
+        android:textColor="@color/colorDark"
+        app:layout_constraintEnd_toStartOf="@+id/Yellow"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/violet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorViolet"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="VIOLET"
+        android:textColor="@color/colorDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:background="@color/colorBlue"
+        android:padding="25dp"
+        android:text="BULE"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Green"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorOrange"
+        android:padding="25dp"
+        android:text="ORANGE"
+        android:textColor="@color/colorDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Yellow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

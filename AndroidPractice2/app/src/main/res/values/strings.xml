@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practice2</string>
+    <string name="linearLayout">线性布局</string>
+    <string name="constraintLayout">约束布局</string>
+    <string name="tableLayout">表格布局</string>
+    <string name="布局样例选择">布局样例选择</string>
+</resources>
