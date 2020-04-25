@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    设置标题-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    设置按钮一，转换第一个SimpleAdapter界面-->
+    <Button
+        android:id="@+id/SimpleAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/simpleAdapter"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+<!--    设置按钮二，转换第二个界面-->
+    <Button
+        android:id="@+id/AlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="@string/alertdialog"
+        app:layout_constraintStart_toStartOf="@+id/SimpleAdapter"
+        app:layout_constraintTop_toBottomOf="@+id/SimpleAdapter" />
+
+<!--    设置按钮三，转换第三个界面-->
+    <Button
+        android:id="@+id/XML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/xml"
+        app:layout_constraintStart_toStartOf="@+id/AlertDialog"
+        app:layout_constraintTop_toBottomOf="@+id/AlertDialog" />
+
+<!--    设置按钮四，转换第四个界面-->
+    <Button
+        android:id="@+id/ActionMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/actionmode"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/XML" />
+</androidx.constraintlayout.widget.ConstraintLayout>
