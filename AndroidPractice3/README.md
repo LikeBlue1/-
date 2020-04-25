@@ -61,7 +61,7 @@ XML菜单实验跟老师视频教学讲到的实现操作略显不同，在老�
 </menu>
 ```
 剩下的操作基本就是老师上课提到的，就不再赘述，看效果截图</br>
-![textsize]（https://github.com/LikeBlue1/-/blob/master/AndroidPractice3/%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F.png）
+![textsize](https://github.com/LikeBlue1/-/blob/master/AndroidPractice3/%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F.png)
 ![common](https://github.com/LikeBlue1/-/blob/master/AndroidPractice3/%E6%99%AE%E9%80%9A%E8%8F%9C%E5%8D%95%E9%A1%B9.png)
 ![textcoloe](https://github.com/LikeBlue1/-/blob/master/AndroidPractice3/%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2.png)
 ## 上下文菜单操作
