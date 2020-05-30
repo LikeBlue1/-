@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--搜索框布局，采用嵌套线性布局模式，取消与搜索按钮按1：1权重分配-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/Search_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入搜索标题"
+        android:ems="10"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"/>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="搜索"/>
+    </LinearLayout>
+</LinearLayout>
